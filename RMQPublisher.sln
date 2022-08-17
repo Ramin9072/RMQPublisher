@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQPublisher", "RMQPublisher\RMQPublisher.csproj", "{E70BACAB-9931-4DFA-9608-0F6E1D1DC434}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worker", "Worker", "{101CFFE7-2F25-4C0D-A30B-7F6294E97CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Share", "01.Share", "{C716590A-D137-4279-92E5-C0EFD01B9A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQPublisher.Core", "RMQPublisher.Core\RMQPublisher.Core.csproj", "{54F2C833-D92D-4E6E-8837-CE1124C3D885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQ.Worker.Publisher", "RMQ.Worker.Publisher\RMQ.Worker.Publisher.csproj", "{E472B431-DB40-43F0-B4DE-426800182F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMQ.Worker.Consumer", "RMQ.Worker.Consumer\RMQ.Worker.Consumer.csproj", "{EEA1E2DD-E909-4EA6-A377-5359D06E8609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E70BACAB-9931-4DFA-9608-0F6E1D1DC434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70BACAB-9931-4DFA-9608-0F6E1D1DC434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70BACAB-9931-4DFA-9608-0F6E1D1DC434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70BACAB-9931-4DFA-9608-0F6E1D1DC434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F2C833-D92D-4E6E-8837-CE1124C3D885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F2C833-D92D-4E6E-8837-CE1124C3D885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F2C833-D92D-4E6E-8837-CE1124C3D885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F2C833-D92D-4E6E-8837-CE1124C3D885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E472B431-DB40-43F0-B4DE-426800182F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E472B431-DB40-43F0-B4DE-426800182F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E472B431-DB40-43F0-B4DE-426800182F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E472B431-DB40-43F0-B4DE-426800182F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA1E2DD-E909-4EA6-A377-5359D06E8609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA1E2DD-E909-4EA6-A377-5359D06E8609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA1E2DD-E909-4EA6-A377-5359D06E8609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA1E2DD-E909-4EA6-A377-5359D06E8609}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54F2C833-D92D-4E6E-8837-CE1124C3D885} = {C716590A-D137-4279-92E5-C0EFD01B9A44}
+		{E472B431-DB40-43F0-B4DE-426800182F5C} = {101CFFE7-2F25-4C0D-A30B-7F6294E97CF0}
+		{EEA1E2DD-E909-4EA6-A377-5359D06E8609} = {101CFFE7-2F25-4C0D-A30B-7F6294E97CF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F50A3E5-22B5-4DC3-984E-DDCB0C4586E9}
+	EndGlobalSection
+EndGlobal
