@@ -1,3 +1,7 @@
 # RMQPublisher
+
 - this source is for run RabbitMq 
--WORKER 
+- base on WORKER  best practice
+- Requeirments
+- need rapidmqon your system
+ 
