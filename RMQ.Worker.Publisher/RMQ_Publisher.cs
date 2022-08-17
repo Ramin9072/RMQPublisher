@@ -38,6 +38,7 @@ namespace RMQ.Worker.Publisher
             {
                 Payment payment = new Payment
                 {
+                    RowNum = i.ToString(),
                     FirstName = $"FiratName {i}",
                     LastName = $"LastName {i}",
                     CardNumber = $"1111-2222-3333-{i.ToString().PadLeft(4, '0')}",

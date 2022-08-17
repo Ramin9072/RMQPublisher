@@ -23,7 +23,7 @@ namespace RMQ.Worker.Consumer
             {
                 var body = ea.Body.ToArray();
                 var payment = body.FromByteArray<Payment>();
-                Console.WriteLine($" [x] Received {payment.FirstName} {payment.LastName} {payment.Value}");
+                Console.WriteLine($" [{payment.RowNum}] Received {payment.FirstName} {payment.LastName} {payment.Value}");
             };
             _model.BasicConsume(queue: Varriables.Keyname,
                                  autoAck: true,
